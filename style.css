@@ -12,14 +12,14 @@ nav{
     justify-content: space-around;
     vertical-align: top;
     list-style-type: none;
-    height: 30px;
-    padding: 10px;
+    height: 35px;
+    padding: 2px;
 }
 
 h1{
     font-family: 'Mea Culpa', cursive;
     font-style: oblique;
-    font-size: 100px;
+    font-size: 80px;
     font-weight: lighter;
     text-align: center;
     margin: 0px;
@@ -28,8 +28,9 @@ h1{
 p{
     text-align: center;
     font-family: 'Koulen', cursive;
-    font-size: medium;
+    font-size: 13px;
     letter-spacing: 10px;
+    margin-bottom: 0px;
 }
 
 .boutonac{
@@ -42,4 +43,77 @@ p{
 
 a:hover{
     color: rgb(188, 117, 71);
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+#cadre1{
+    background-image: url("images/salon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 800px;
+}
+
+.nav2{
+    background-color: rgb(188, 117, 71);
+    color: white;
+    width: 50%;
+    height: 250px;
+    margin-top: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    text-decoration:none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Koulen', cursive;
+    font-size: 15px;
+    letter-spacing: 2px;
+    
+}
+
+hr{
+    color: white;
+    width: 80%;
+    margin: 0px;
+}
+
+button{
+    background-color: rgb(46, 45, 43);
+    border: none;
+    color: white;
+    width: 80%;
+    padding: 15px;
+    text-align:start;
+    font-family: 'Koulen', cursive;
+    font-size: 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.bouton2{
+    text-decoration: none;
+    color: white;
+}
+
+#cadre2{
+    width: 350px;
+    margin-right: 100px;
+    text-align: right;
+}
+
+.portrait{
+    width: 350px;
+}
+
+.nav2 a:hover{
+    color: black;
 }
