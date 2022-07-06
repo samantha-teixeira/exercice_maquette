@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(242, 238, 235);
+}
+
+nav{
+    background-color: rgb(231, 215, 200);
+}
+
+.nav1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    vertical-align: top;
+    list-style-type: none;
+    height: 30px;
+    padding: 10px;
+    font-weight: bolder;
+    font-stretch: semi-condensed;
+}
+
+h1{
+    font-family: 'Mea Culpa', cursive;
+    font-style: oblique;
+    font-size: 100px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.boutonac{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(188, 117, 71);
+}
